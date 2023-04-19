@@ -52,7 +52,7 @@ export default class Preloader extends EventEmitter {
             if (this.device === "desktop") {
                 this.timeline
                     .to(this.roomChildren.cube.scale, {
-                        x: 1.4,
+                        x: 1.41,
                         y: 1.4,
                         z: 1.4,
                         ease: "back.out(2.5)",
